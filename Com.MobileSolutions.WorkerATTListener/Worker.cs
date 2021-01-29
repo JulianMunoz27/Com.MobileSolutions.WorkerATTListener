@@ -60,8 +60,6 @@ namespace Com.MobileSolutions.WorkerATTListener
         private static async Task QueueHandlerAsync()
         {
             bool run = true;
-            //var builder = new ConfigurationBuilder().SetBasePath(Environment.CurrentDirectory.Replace("\\bin\\Debug\\netcoreapp2.1", string.Empty)).AddJsonFile("appsettings.json");
-            //var configuration = builder.Build();
             int init = 0;
             List<string> nameList = new List<string>();
             AppDomain.CurrentDomain.DomainUnload += (s, e) =>
