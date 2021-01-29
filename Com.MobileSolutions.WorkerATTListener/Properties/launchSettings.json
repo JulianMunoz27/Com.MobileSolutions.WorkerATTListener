@@ -1,0 +1,10 @@
+﻿{
+  "profiles": {
+    "Com.MobileSolutions.WorkerATTListener": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}
