@@ -61,7 +61,7 @@ namespace Com.MobileSolutions.WorkerATTListener
         {
             bool run = true;
             //var builder = new ConfigurationBuilder().SetBasePath(Environment.CurrentDirectory.Replace("\\bin\\Debug\\netcoreapp2.1", string.Empty)).AddJsonFile("appsettings.json");
-            //var configuration = builder.Build();
+            //var configuration = builder.Build();asdfasdfasd
             int init = 0;
             List<string> nameList = new List<string>();
             AppDomain.CurrentDomain.DomainUnload += (s, e) =>
